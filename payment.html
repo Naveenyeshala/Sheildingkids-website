@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/remain.css">
+    <link rel="stylesheet" href="css/media.css">
+    <style>
+        body {
+            background-color: azure;
+
+        }
+
+        .line {
+            color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            font-size: 2em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .subline {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+
+        .para {
+            color: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Ubuntu", sans-serif;
+            /* padding: 0px 230px 50px 230px; */
+            padding: 50px;        }
+
+
+
+        .paymentway {
+            color: green;
+            background-color: rgb(175, 240, 175);
+            border-radius: 10px;
+
+        }
+
+
+
+        .pass {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 75px;
+        }
+
+        .paymentway :hover {
+            text-overflow: clip;
+            color: green;
+            letter-spacing: 0.25em;
+            position: relative;
+            background: rgb(131, 242, 131);
+        }
+    </style>
+    <title>payment</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="img/logop.png" alt="logo">
+                <div class="heading"><i>Sheildingkids</i></div>
+            </div>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+
+
+    </nav>
+
+    <div class="line">
+        <h1>Make A Donation</h1>
+    </div>
+
+    <div class="subline"><i>
+            <h3>EVERY ONLINE DONATION COUNTS! YOU CAN MAKE A DIFFERENCE. COME FORWARD, NOW…</h3>
+        </i></div>
+
+    <div class="para">
+        <p>
+            For decades, the Child and Old Age Welfare Trust has been devoted to uplifting the lives of the most
+            vulnerable children and elderly individuals. Through online donations, we extend vital support to
+            disadvantaged children, women, and low-income communities, offering improved healthcare, educational
+            opportunities, and safeguarding against physical and mental exploitation. Embedded within impoverished
+            communities, our development projects prioritize restoring the innocence of childhood, rescuing children
+            from the clutches of malnutrition, facilitating access to education, ensuring safe pregnancies for women,
+            and liberating children from exploitative labor. Our achievements are indebted to the compassionate
+            contributions of countless donors. With your continued support, we strive to perpetuate our mission with
+            unwavering vigor and compassion.</p>
+    </div>
+    <div class="subline">
+        <h3>WHY DONATE?</h3>
+    </div>
+    <div class="para">
+        <p>
+            Your invaluable donation powers our mission to support the elderly and children in need. With your
+            generosity, we provide crucial resources like education, nutrition, healthcare, and protection from
+            abuse and exploitation. Without your unwavering support, our efforts would come to a standstill. It
+            takes each and every one of us joining forces to ensure a brighter and more hopeful future for both the
+            elderly and children worldwide</p>
+    </div>
+    <div class="pass">
+
+        <button class="paymentway">
+            <form>
+                <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                    data-payment_button_id="pl_NoSELpxw9nfCYF" async> </script>
+            </form>
+            </script>
+        </button>
+
+    </div>
+    <footer>
+
+        <p class="textfooter">
+            Copyright &copy; 2030 - www.Sheildingkids.com-All rights reserved
+        </p>
+    </footer>
+
+</body>
+
+</html>
