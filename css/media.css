@@ -1,0 +1,99 @@
+
+@media screen and (max-width: 1140px) {
+
+    .mission {
+        margin-top: -10px; 
+    }
+
+    .contact {
+        height: auto; 
+    }
+
+    .text-center {
+        font-size: 30px; 
+    }
+
+    .form {
+        padding: 0 20px; 
+    }
+
+    .form-input {
+        
+        font-size: 16px; 
+    }
+
+    .btn-dark {
+        padding: 6px 16px; 
+        font-size: 18px; 
+
+    }
+
+
+    .slider {
+        width: 90%; 
+        margin-left: auto; 
+        
+        margin-right: auto; 
+    }
+
+    .navigation-manual,
+    .navigation-auto {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+
+    .manual-btn,
+    .navigation-auto div {
+        padding: 3px; 
+        border-radius: 8px; 
+    }
+
+
+
+    .size {
+        width: 90%;
+    }
+
+
+
+    .size {
+        width: 100%; 
+    }
+
+    .but {
+        margin-left: 20px;
+        margin-right: 10px; 
+    }
+    .quote {
+        margin-left: 50px; 
+        width: 80%;
+    }
+
+    .press {
+        font-size: 12px; 
+    }
+
+    .secright {
+        padding: 10px; 
+    }
+
+    .sectiontag {
+        font-size: 24px; 
+    }
+
+    .sectionsubtag {
+        font-size: 14px; 
+    }
+    .lapy {
+        padding: 20px; 
+    }
+    .para {
+        padding: 0px 30px 50px 30px;
+    }
+    
+    .subline {
+        padding-bottom: 5px;
+
+    }
+    
+}

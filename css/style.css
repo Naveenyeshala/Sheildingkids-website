@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo img {
+    width: 20%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+
+.heading {
+    color: white;
+    padding-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+
+}
+
+
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+
+
+
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+
+
+}
+
+
+.nav-list li a:hover {
+    color: grey;
+
+}
+
+
+
+.quote {
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+    align-items: center;
+    height: 10vh;
+    color: rgb(233, 111, 111);
+    border-right: .15rem solid gainsboro;
+    font-size: 1em;
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: quote 10s linear infinite;
+    font-family: "Ubuntu", sans-serif;
+}
+
+@keyframes quote {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 40%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+
+.but{
+    text-align:right;
+    margin-right: 250px;
+    
+
+
+}
+
+.press{
+    color: green;
+    font-size: medium;
+    background-color: rgb(129, 255, 129);
+    border-radius: 9px;
+    border: 2px solid green;
+}
+
+
+.press:hover{
+    text-overflow:clip;
+    color: green;
+    letter-spacing: 0.55em;
+    position:sticky;
+    background: rgb(131, 242, 131);
+}
+
+
+.btn{
+    padding: 10px 30px;
+}
+
+
+
+
+/* footer */
+.textfooter {
+    text-align: center;
+    padding: 14px 0;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
